@@ -3,10 +3,12 @@ var vidHeight= '480px';
 $(document).ready(function(){
   $("#button").click( function()
           {
+            $('#results div').empty();
             $.get(
               "https://www.googleapis.com/youtube/v3/search", {
                 part: 'snippet',
                 maxResults: 50,
+                 q: $('#searchBar').val(),
                 key: "AIzaSyA8iIbu-hvnW6Rb21SAexTtH8Qgbwhzpco"},
                 function(data){
                   var output;
