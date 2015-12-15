@@ -1,6 +1,6 @@
 var vidWidth = '800px';
 var vidHeight= '480px';
-var choicesForOrder= ["date", "rating", "relevance", "title", "videoCount", "viewCount"];
+var choicesForOrder= ["date", "rating", "relevance", "title",  "viewCount"];
 function random (array){
   var i = Math.floor(Math.random()* array.length);
   return array[i];
