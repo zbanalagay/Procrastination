@@ -15,16 +15,25 @@ body {
   text-align:center;
   font-family: 'Pacifico', sans-serif;
   font-size: 60px;
-  color:black;
 }
 
 .top h1:hover{
   color:#008fb3;
 }
 
-.clickable{
-  color: #53c68c;
+@keyframes example{
+    from {color: #cc66ff},
+    to {color: #004466}
 }
+
+h1{
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+
+
+
 
 h3{
   color:white;
