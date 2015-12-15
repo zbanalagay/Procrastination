@@ -9,6 +9,7 @@ $(document).ready(function(){
                 part: 'snippet',
                 maxResults: 20,
                  q: $('#searchBar').val(),
+                 videoLicense: "youtube",
                 key: "AIzaSyA8iIbu-hvnW6Rb21SAexTtH8Qgbwhzpco"},
                 function(data){
                   var output;
