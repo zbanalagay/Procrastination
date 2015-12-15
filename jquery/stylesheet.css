@@ -15,10 +15,15 @@ body {
   text-align:center;
   font-family: 'Pacifico', sans-serif;
   font-size: 60px;
+  color:black;
 }
 
 .top h1:hover{
   color:#008fb3;
+}
+
+.clickable{
+  color: #53c68c;
 }
 
 h3{
@@ -33,12 +38,17 @@ h3{
   background-color: #8C78B0;
 }
 
-#button:hover{
+#button{
   background-color: red;
   width: 50px;
   height: 50px;
   border-radius: 100%;
   font-size: 15px;
+}
+
+#button:hover{
+  background-color: #990000;
+  color:white;
 }
 #searchBar{
   margin-top: 5px;
