@@ -1,5 +1,10 @@
 var vidWidth = '800px';
 var vidHeight= '480px';
+var choicesForOrder= ["date", "rating", "relevance", "title", "videoCount", "viewCount"];
+function random (array){
+  var i = Math.floor(Math.random()* array.length);
+  return array[i];
+}
 $(document).ready(function(){
   $("#button").click( function()
           {
@@ -8,7 +13,7 @@ $(document).ready(function(){
               "https://www.googleapis.com/youtube/v3/search", {
                 part: 'snippet',
                 maxResults: 20,
-                order: "rating",
+                order: random(choicesForOrder),
                  q: $('#searchBar').val(),
                 key: "AIzaSyA8iIbu-hvnW6Rb21SAexTtH8Qgbwhzpco"},
                 function(data){
