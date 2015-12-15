@@ -7,6 +7,7 @@
   <script  src="https://code.angularjs.org/1.4.8/angular.js"></script>
   <script src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
   <script src="https://code.angularjs.org/1.4.8/angular-resource.js"></script>
+  <script src="https://code.angularjs.org/1.4.8/angular-animate.js"></script>
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -15,14 +16,15 @@
     <form>
       <!-- may need to insert an action in to form tag  -->
       What's on your mind: <input  class="searchBar" type="text" name="search" placeholder= "Let's keep it classy" ng-model= "searchTerm">
-      <button> Find me a video </button>
+      <button ng-click= searchByKeyword()> Find me a video </button>
     </form>
     <div ng-controller='videoController'>
-      <table>
+    
+      <!-- <table>
         <tr ng-repeat= "video in videoResult.results">
           <td> {{video.text}}</td>
         </tr>
-      </table>
+      </table> -->
 
     </div>
   </div>
