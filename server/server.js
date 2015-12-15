@@ -49,7 +49,7 @@
 
 var express = require('express');
 var app = express();
-app.use(express.static('client'));
+app.use(express.static('jquery'));
 app.use(express.static('bower_components'));
 app.use(express.static('lib'));
 app.use(express.static('public'))
