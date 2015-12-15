@@ -1,7 +1,7 @@
 {
-  "name": "chatterbox",
+  "name": "let's procrastinate",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "server/server.js",
   "author": "Elizabeth Banalagay",
   "license": "Copyright 2015, Elizabeth Banalagay. All rights reserved.",
   "devDependencies": {
