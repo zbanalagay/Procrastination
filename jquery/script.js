@@ -8,6 +8,7 @@ $(document).ready(function(){
               "https://www.googleapis.com/youtube/v3/search", {
                 part: 'snippet',
                 maxResults: 20,
+                order: "rating",
                  q: $('#searchBar').val(),
                 key: "AIzaSyA8iIbu-hvnW6Rb21SAexTtH8Qgbwhzpco"},
                 function(data){
