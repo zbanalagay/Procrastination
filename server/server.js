@@ -55,7 +55,8 @@ app.use(express.static('bower_components'));
 //   res.send('Hello World!');
 // });
 
-var server = app.listen(3000, function () {
+var prodPort = process.env.PORT || 3000
+var server = app.listen(prodPort, function () {
   var host = server.address().address;
   var port = server.address().port;
 
