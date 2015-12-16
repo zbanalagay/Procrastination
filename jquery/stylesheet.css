@@ -46,7 +46,7 @@ h3{
 }
 .container{
   margin: 0 auto
-
+  
   background-color: #8C78B0;
 }
 
@@ -67,7 +67,8 @@ h3{
   transform: rotate(360deg);
 }
 #searchBar{
-  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 540px;
   min-width: 300px;
   min-height: 10px;
 
