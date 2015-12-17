@@ -1,0 +1,22 @@
+{
+  "name": " procrastinate",
+  "version": "0.0.1",
+  "main": "server/server.js",
+  "author": "Elizabeth Banalagay",
+  "license": "Copyright 2015, Elizabeth Banalagay. All rights reserved.",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "request": "^2.34.0",
+    "chai": "^1.9.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-resource": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "http-dispatcher": "^0.2.2",
+    "path": "^0.12.7"
+
+  }
+}
