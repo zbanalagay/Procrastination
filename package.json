@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "server/server.js",
   "author": "Elizabeth Banalagay",
-  "license": "Copyright 2015, Elizabeth Banalagay. All rights reserved.",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "^1.21.4",
     "request": "^2.34.0",
