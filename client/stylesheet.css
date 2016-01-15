@@ -45,9 +45,8 @@ h3{
   font-size: 20px;
 }
 .container{
-  margin: 0 auto
-  
-  background-color: #8C78B0;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 #button{
@@ -67,10 +66,10 @@ h3{
   transform: rotate(360deg);
 }
 #searchBar{
-  margin-top: 5px;
-  margin-left: 540px;
+  margin: 0 auto;
   min-width: 300px;
   min-height: 10px;
+  max-width: 300px;
 
 }
 ::-webkit-input-placeholder {
